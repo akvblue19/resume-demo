@@ -1,6 +1,6 @@
 # resume-demo
 It is a simple HTML and CSS based webpage
 
-#Screenshot
+# Screenshot
 
 <img src="images/Capture.PNG" >
