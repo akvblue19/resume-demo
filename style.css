@@ -1,0 +1,605 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    font-family:monospace;
+}
+
+#main-container {
+    
+    background-color: #F0ECE9;
+    width: 100%;
+    height: 1250px;
+    padding: 0;
+    margin: 0;
+}
+
+#side {
+    
+    float: left;
+    width: 32%;
+    height: 1095px;
+    background-color: white;
+    box-shadow: 2px 2px 4px 4px  lightgrey;
+    margin: 15px;
+}
+
+#name-block{
+    
+    height: 300px;
+}
+
+#photo-block{
+    
+    
+     position: relative;
+     z-index: 1;
+    height: 300px;
+    width: 100%;
+    
+}
+
+#photo {
+    
+    height: 100%;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+   
+}
+
+#name {
+    
+    position: absolute;
+    z-index: 2;
+    top: 200px;
+    height: 50px;
+    width: 32%;
+    font-size: 200%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+    
+    
+    
+}
+
+#photo:hover{
+
+       transform: scale(1.05,1.05);
+       position: absolute;
+       z-index: 3;
+       
+
+}
+
+#name2{
+   
+    width: 90%;
+    height: 50px;
+    background-color: #009688;
+    border-top-right-radius: 50px;
+    
+}
+
+#name3{
+    margin-left:30px;
+    margin-top: 7px;
+    float: left;
+}
+
+#below-name{
+    margin-top: 10px;
+    height: 170px;
+    width: 100%;
+}
+
+.info{
+    
+    height: 42.5px;
+   
+    
+}
+
+.info-img{
+    
+    padding: 10px;
+    float: left
+}
+
+.info-text{
+    font-size: 110%;
+    color: dimgrey;
+    padding-top: 10px;
+    margin-left: 15px;
+    float: left;
+    width: 120px
+}
+
+#below-info-rule{
+    
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    height: 1.3px;
+    background-color: #EEEEEE;
+}
+
+#skill-block{
+    
+    width: 100%;
+    height: 340px;
+    background-color: white;
+}
+
+#skill{
+    
+    height: 60px;
+    width: 100%;
+   
+}
+
+#skill-img{
+    
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    
+}
+
+#skill-text{
+    
+    font-size: 140%;
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+    color: #757575;
+    font-weight: bold;
+    
+    
+}
+
+#skill-text:hover{
+     color:#009688;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+
+.skill-info-block{
+    
+    margin-top: 10px;
+}
+
+.skill-info{
+    
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    font-size: 110%;
+    margin-left: 10px;
+    color: dimgrey;
+    
+}
+
+.bar{
+    
+    border-radius: 10px;
+    width: 95%;
+    height: 18px;
+    background-color: #F1F1F1;
+    margin: 10px;
+    
+}
+
+#adobe{
+    
+    border-radius: 10px;
+    width: 90%;
+    height: 18px;
+    background-color: #009688;
+    text-align: center;
+    color: white;
+}
+
+#adobe:hover{
+     background-color: deepskyblue;
+}
+
+#photography{
+    border-radius: 10px;
+    width: 80%;
+    height: 18px;
+    background-color: #009688;
+    text-align: center;
+    color: white;
+    
+}
+
+#photography:hover{
+     background-color: deepskyblue;
+}
+
+#illustrator{
+    
+    border-radius: 10px;
+    width: 75%;
+    height: 18px;
+    background-color: #009688;
+    text-align: center;
+    color: white;
+    
+}
+
+#illustrator:hover{
+     background-color: deepskyblue;
+}
+
+#Media{
+    
+     border-radius: 10px;
+    width: 50%;
+    height: 18px;
+    background-color: #009688;
+    text-align: center;
+    color: white;
+}
+
+#Media:hover{
+     background-color: deepskyblue;
+}
+
+#language-block{
+    
+    width: 100%;
+    height: 300px;
+   
+}
+
+
+#lang{
+    
+    width: 100%;
+    height: 45px;
+   
+}
+
+#lang-img{
+    
+    margin-left: 10px;
+    float: left;
+}
+
+#lang-text{
+    
+    float: left;
+    color: #757575;
+    font-size: 140%;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#lang-text:hover{
+    color:#009688;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.lang-info{
+    
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    font-size: 110%;
+    margin-left: 10px;
+    color: dimgrey;
+}
+
+.bar2{
+    
+    border-radius: 15px;
+    width: 95%;
+    height: 24px;
+    background-color: #F1F1F1;
+    margin: 10px;
+    
+}
+
+#Python{
+    
+     
+    border-radius: 15px;
+    width: 99%;
+    height: 24px;
+    background-color: #009688;
+    text-align: center;
+    color: white;
+}
+
+#Python:hover{
+    background-color: deepskyblue;
+}
+
+#c{
+    border-radius: 15px;
+    width: 70%;
+    height: 24px;
+    background-color: #009688;
+    text-align: center;
+    color: white;
+}
+
+#c:hover{
+     background-color: deepskyblue;
+}
+
+#java{
+    
+    border-radius: 15px;
+    width: 40%;
+    height: 24px;
+    background-color: #009688;
+    text-align: center;
+    color: white;
+}
+
+#java:hover{
+     background-color: deepskyblue;
+}
+
+#right-side {
+    
+    float: left;
+    width: 64%;
+    height: 550px;
+    background-color: white;
+    box-shadow: 2px 2px 4px 4px  lightgrey;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+#work-exp{
+    
+    width: 100%;
+    height: 100px;
+    
+}
+
+#work-exp-img{
+    margin-left: 20px;
+    margin-top: 25px;
+    float: left;
+}
+
+#work-exp-text{
+    
+    font-size: 210%;
+    margin-left: 20px;
+    margin-top: 27px;
+    float: left;
+    color: #757575;
+}
+
+#work-exp-text:hover{
+    color:#009688;
+    font-weight: bold;
+    font-size: 220%;
+}
+
+#front{
+    
+    margin-left: 33px;
+    font-size: 140%;
+    font-weight: bold;
+    color:  #757575;
+    float: left;
+    width: 95%;
+   
+}
+
+#front:hover{
+    color:#009688;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+
+.calender{
+    margin-top: 10px;
+    margin-left: 33px;
+    float: left;
+}
+
+#date1{
+    
+    margin-top: 12px;
+    margin-left: 15px;
+    float: left;
+    font-size: 120%;
+    color: #009688;
+    width: 25%;
+    
+}
+
+
+
+.front-content{
+    margin-top: 10px;
+    margin-left: 33px;
+    float: left;
+    width: 90%;
+    font-size: 105%;
+    
+}
+
+.rule{
+    height: 1px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 33px;
+    background-color:  #EEEEEE;
+    float: left;
+    
+}
+
+#web{
+    
+    margin-left: 33px;
+    margin-top: 25px;
+    font-size: 140%;
+    font-weight: bold;
+    color:  #757575;
+    float: left;
+    width: 95%;
+    
+}
+
+#web:hover{
+    color:#009688;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.date2{
+    
+    margin-top: 12px;
+    margin-left: 15px;
+    float: left;
+    font-size: 120%;
+    color: #009688;
+    width: 80%;
+}
+
+#graphic{
+    
+     margin-left: 33px;
+    margin-top: 25px;
+    font-size: 140%;
+    font-weight: bold;
+    color:  #757575;
+    float: left;
+    width: 95%;
+    
+}
+
+#graphic:hover{
+    color:#009688;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#right-side2{
+    
+    float: left;
+    width: 64%;
+    height: 530px;
+    background-color: white;
+    box-shadow: 2px 2px 4px 4px  lightgrey;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+#edu{
+    
+    width: 95%;
+    height: 100px;
+    
+}
+
+#edu-img{
+    margin-left: 20px;
+    margin-top: 25px;
+    float: left;
+}
+
+#edu-text{
+    
+    font-size: 210%;
+    margin-left: 20px;
+    margin-top: 27px;
+    float: left;
+    color: #757575;
+}
+
+#edu-text:hover{
+    color:#009688;
+    font-weight: bold;
+    font-size: 220%;
+}
+
+.edu1{
+    
+    margin-left: 33px;
+    margin-top: 10px;
+    font-size: 140%;
+    font-weight: bold;
+    color:  #757575;
+    float: left;
+    width: 95%;
+    
+}
+
+.edu1:hover{
+    
+    color:#009688;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#clear{
+    clear: both;
+}
+
+#footer{
+    
+    height: 130px;
+    widows: 100%;
+    background-color: #009688;
+    
+}
+
+#footer:hover{
+    background-color: deepskyblue;
+}
+
+.find{
+    
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 120%;
+}
+
+#icons{
+    
+    width: 100%;
+    height: 37px;
+    margin-top: 20px;
+    
+}
+
+#icon-img{
+    
+    height: 100%;
+    width: 110px;
+    margin: 0 auto;
+    
+}
+
+.social{
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+
+.fb{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+}
+
+.fb:hover{
+    height: 32px;
+    width: 32px;
+}
+
+
